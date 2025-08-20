@@ -547,7 +547,7 @@ namespace QUANLYTHUVIEN
         }
         private void MainForm_FormClosed(object sender, FormClosedEventArgs e)
         {
-            using (SqlConnection conn = new SqlConnection("Data Source=DESKTOP-SMMDH16\\SQLEXPRESS;Initial Catalog=ql_tv;User ID=sa;Password=sa"))
+            using (SqlConnection conn = new SqlConnection("Data Source=DESKTOP-SMMDH16\\SQLEXPRESS;Initial Catalog=ql_tv1;User ID=sa;Password=sa"))
              {
                 try
                 {

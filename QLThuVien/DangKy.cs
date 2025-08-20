@@ -7,8 +7,8 @@ namespace QUANLYTHUVIEN
 {
     public partial class DangKy : Form
     {
-        private readonly string connectionString = @"Data Source=DESKTOP-SMMDH16\SQLEXPRESS;Initial Catalog=ql_tv;User ID=sa;Password=sa";
-        //private readonly string connectionString = @"Data Source=A208PC16\CSSQL08;Initial Catalog=ql_tv;User ID=sa;Password=sa";
+        private readonly string connectionString = @"Data Source=DESKTOP-SMMDH16\SQLEXPRESS;Initial Catalog=ql_tv1;User ID=sa;Password=sa";
+        //private readonly string connectionString = @"Data Source=A208PC16\CSSQL08;Initial Catalog=ql_tv1;User ID=sa;Password=sa";
 
         public DangKy()
         {
