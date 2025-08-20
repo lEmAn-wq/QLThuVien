@@ -36,8 +36,8 @@ namespace QUANLYTHUVIEN
             string password = txtMatKhau.Text;
 
             // Chuỗi kết nối sử dụng tài khoản mà người dùng nhập vào
-            userConnectionString = $"Data Source=DESKTOP-SMMDH16\\SQLEXPRESS;Initial Catalog=ql_tv1;User ID={loginName};Password={password}";
-            //string userConnectionString = $"Data Source=A208PC16\\CSSQL08;Initial Catalog=ql_tv1;User ID={loginName};Password={password}";
+            userConnectionString = $"Data Source=DESKTOP-SMMDH16\\SQLEXPRESS;Initial Catalog=ql_tv;User ID={loginName};Password={password}";
+            //string userConnectionString = $"Data Source=A208PC16\\CSSQL08;Initial Catalog=ql_tv;User ID={loginName};Password={password}";
 
             try
             {
@@ -49,8 +49,8 @@ namespace QUANLYTHUVIEN
                 //}
 
                 // Nếu kết nối thành công, tiếp tục kiểm tra thông tin user và role
-                //using (SqlConnection conn = new SqlConnection("Data Source=DESKTOP-SMMDH16\\SQLEXPRESS;Initial Catalog=ql_tv1;User ID=sa;Password=sa"))
-                using (SqlConnection conn = new SqlConnection("Data Source=DESKTOP-SMMDH16\\SQLEXPRESS;Initial Catalog=ql_tv1;User ID=sa;Password=sa"))
+                //using (SqlConnection conn = new SqlConnection("Data Source=DESKTOP-SMMDH16\\SQLEXPRESS;Initial Catalog=ql_tv;User ID=sa;Password=sa"))
+                using (SqlConnection conn = new SqlConnection("Data Source=DESKTOP-SMMDH16\\SQLEXPRESS;Initial Catalog=ql_tv;User ID=sa;Password=sa"))
                 {
                     conn.Open();
 
